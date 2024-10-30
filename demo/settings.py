@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     # local apps
     'content_app',
 
+    # integrated app
+    'cms_app',
+
     #3rd party apps 
     'rest_framework',
 
