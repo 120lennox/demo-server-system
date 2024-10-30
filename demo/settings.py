@@ -85,13 +85,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     },
-    'cms_databse': {
+    'cms_database': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
-DATABASE_ROUTERS = ['path.to.database_routers.CMSRouter']
+DATABASE_ROUTERS = ['demo.database_routers.CMSRouter']
 
 
 # Password validation
